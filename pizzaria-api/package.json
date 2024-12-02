@@ -1,0 +1,24 @@
+{
+  "name": "pizzaria-api",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de uma pizzaria",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",        
+    "dev": "nodemon src/index.js",      
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["pizzaria", "api", "nodejs", "express", "sequelize"],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
